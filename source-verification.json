@@ -1,0 +1,26 @@
+[
+  {
+    "path": "src/shaders/landing-pages/LandingPages.tsx",
+    "expected": "4d379461ad00eb4de7900df312878035383de7e1ed4e13283b8143a2eea9d30a",
+    "actual": "4d379461ad00eb4de7900df312878035383de7e1ed4e13283b8143a2eea9d30a",
+    "matches": true
+  },
+  {
+    "path": "src/shaders/landing-pages/LandingPageFrame.tsx",
+    "expected": "61de2cc50888aac4ac5557420b07fa47ed3543bb57c1e0055fafdefa53dbaa78",
+    "actual": "61de2cc50888aac4ac5557420b07fa47ed3543bb57c1e0055fafdefa53dbaa78",
+    "matches": true
+  },
+  {
+    "path": "public/landing-pages/complete-shelf-v2.html",
+    "expected": "606f200fed8602c243f40a11c8c364f0e625c57f80e7c97dc76419da207f198e",
+    "actual": "8f1256796bab42b0d60e187176dfcc9d9df33cec1d22ca6f3c3767dcfeca4cb9",
+    "matches": false
+  },
+  {
+    "path": "src/shaders/threeui.css",
+    "expected": "efe4447139f1358dd8e9be68edf6fa46cbefbd1de423a4d6c439ca61d2c8eccf",
+    "actual": "efe4447139f1358dd8e9be68edf6fa46cbefbd1de423a4d6c439ca61d2c8eccf",
+    "matches": true
+  }
+]

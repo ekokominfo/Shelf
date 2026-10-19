@@ -1,0 +1,7 @@
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  // Source archives are not application entrypoints. The authored HTML's
+  // import map is resolved by its iframe, never by Vite's dependency scanner.
+  optimizeDeps: { entries: ['index.html'] },
+});
