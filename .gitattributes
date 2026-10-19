@@ -1,0 +1,7 @@
+* text=auto
+# Preserve verified upstream bytes on every platform.
+complete-shelf-original.html -text
+complete-shelf-source.json -text
+public/landing-pages/complete-shelf-v2.html -text
+vendor/threeui/** -text
+src/effects/complete-shelf-landing-page/LandingPageFrame.tsx -text
