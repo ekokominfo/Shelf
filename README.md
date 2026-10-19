@@ -1,5 +1,9 @@
 # Complete Shelf
 
+Live preview: https://ekokominfo.github.io/Shelf/
+
+GitHub Actions builds and deploys updates to GitHub Pages on pushes to `main`. The host uses Vite's `/Shelf/` base for both JavaScript and the iframe URL; the authored HTML remains unchanged.
+
 Local React/Vite integration of the official Working Volumes document, using Three.js r165. Run `pnpm install`, `pnpm dev`, `pnpm build`, and `pnpm verify`.
 
 The user approved the current official HTML on 2026-10-17. It is served byte-for-byte at `/landing-pages/complete-shelf-v2.html` (SHA-256 `8f1256796bab42b0d60e187176dfcc9d9df33cec1d22ca6f3c3767dcfeca4cb9`). It differs from the originally requested revision; see `source-verification.json`. This current upstream version loads its cover/wood images from Supabase, Three.js from jsDelivr, and Inter from Google Fonts, so internet access is needed.

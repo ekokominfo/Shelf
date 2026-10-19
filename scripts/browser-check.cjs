@@ -12,7 +12,7 @@ const assert = require('node:assert/strict');
       const page = await context.newPage();
       const errors = [];
       page.on('pageerror', error => errors.push(error.message));
-      await page.goto('http://127.0.0.1:5173/');
+      await page.goto(process.env.SHELF_URL || 'http://127.0.0.1:5173/Shelf/');
       const frame = await (await page.waitForSelector('iframe')).contentFrame();
       await frame.waitForSelector('.webgl-ready', { timeout: 90000 });
       assert.equal(await frame.locator('#markers [role="tab"]').count(), 7);
